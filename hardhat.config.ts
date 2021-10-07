@@ -56,5 +56,11 @@ const config: HardhatUserConfig = {
       },
     ],
   },
+  paths: {
+    artifacts: './hardhat/artifacts',
+    cache: './hardhat/cache',
+    tests: './hardhat/tests',
+    deploy: './hardhat/deploy'
+  }
 };
 export default config;
